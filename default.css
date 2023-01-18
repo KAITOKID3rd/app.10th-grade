@@ -1,0 +1,73 @@
+body
+{
+
+font-family: sans-serif;
+
+}
+h1 {
+ 
+  border-bottom: solid 3px #40F4FA;
+  position: relative;
+  color: #ffffff;
+  font-weight: 500;
+}
+h1:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #FAAE40;
+  bottom: -3px;
+  width: 20%;
+}
+h2 {
+  
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+}
+h3 {
+  font-size: 4vw;
+  text-align: center;
+  color: #6ce8f8;
+  font-weight: 500;
+}
+h4 {
+  position: relative;
+  padding: 0.25em 0;
+  text-align: center;
+  color: #6ce8f8;
+  font-weight: 500;
+
+}
+h4:after {
+  content: "";
+  display: block;
+  height: 4px;
+  
+  background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
+  background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+}
+p {
+  
+  text-align: center;
+  color: #f4feff;
+  font-weight: 500;
+}
+.form{
+  z-index: 10;
+}
+
+/*メッセージエリア*/
+.message-area{
+  /* メッセージエリアにoverflow: scroll;を指定*/
+  overflow: scroll;
+ background-color: #000000;
+ color: #ffffff;
+}
+.message-area p{
+  font-size: 3.5vw;
+  -webkit-text-size-adjust:100%;
+  padding: 1vw;
+}
+
+

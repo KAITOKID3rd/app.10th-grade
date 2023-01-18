@@ -1,0 +1,285 @@
+@media screen and (max-width:1000px) {
+ 
+  /*　画面サイズが480px以下の場合ここの記述が適用される　*/
+  .box_outer {
+      overflow:  hidden; 
+      position: relative;
+      text-align: center;
+      
+      top: 0;
+      background: rgba(0,0,0,0);
+      z-index: 10;
+      width:95%;
+      padding: 0.5em 0.5em;
+      opacity: 0;
+      margin: 1px auto;
+  }
+
+  .box_default{
+    background: #191919;
+    float: left;
+    width:100%;
+    z-index: 5;
+    
+}
+
+  .box_inner{
+      width:100%;
+      /**border:1px solid #ff8410;**/
+      text-align: center;
+      z-index: 10;
+      overflow: hidden;
+  }
+  .box_20pc{
+    width:20%;
+    text-align: center;
+    z-index: 10;
+    float: left;
+  }
+  .box_25pc{
+      width:25%;
+      text-align: center;
+      z-index: 10;
+      float: left;
+    }
+  .box_33pc{
+      width:33%;
+      text-align: center;
+      z-index: 10;
+      
+      margin: 1px auto;
+      float: left;
+  }
+  .box_50pc{
+      width:50%;
+      text-align: center;
+      z-index: 10;
+      float: left;
+      text-align: center;
+      margin: 0 auto;
+  }
+  .box_100pc{
+      width:100%;
+      text-align: center;
+      z-index: 10;
+      float: left;
+    }
+  .box_login{
+      
+      text-align: center;
+      z-index: 10;
+      float: right;
+      
+      box-sizing: border-box;
+    }
+    .login_box{
+      
+      text-align: center;
+      z-index: 10;
+      float: right;
+      padding-top: 11px;
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
+    .login_name{
+      
+      text-align: center;
+      z-index: 10;
+      float: left;
+      
+      box-sizing: border-box;
+    }
+    .login_button{
+      
+      text-align: center;
+      z-index: 10;
+      float: left;
+      
+      box-sizing: border-box;
+      pointer-events: auto;
+    }
+  
+    .icon{
+      width: 35vw;
+      height: 30vw;
+      position: relative;
+      margin: 0 auto;
+      padding-left: 5vw;
+    }
+    
+    #login {
+      position: fixed;
+      /*基準を画面の左上に*/
+      top: 0;
+      left: 0;
+      /*余白が入らないように*/
+      margin: 0;
+      /*以下装飾*/
+      width: 100%;
+      background: #ffc77800;
+      color:white;
+      float: right;
+      pointer-events: none;
+    }
+  
+    #fixed {
+      position: fixed; /* 要素の位置を固定する */
+      bottom: 0; /* 基準の位置を画面の一番下に指定する */
+      left: 0; /* 基準の位置を画面の一番右に指定する */
+      width: 300px; /* 幅を指定する */
+      z-index: 2000;
+      pointer-events: none;
+      }
+
+  h1{
+      font-size: 8vw;
+      font-weight: 700;
+  }
+}
+
+
+.box_outer {
+  overflow:  hidden; 
+  position: relative;
+  text-align: center;
+  
+  top: 0;
+  background: rgba(0,0,0,0);
+  z-index: 10;
+  width:95%;
+  padding: 0.5em 0.5em;
+  opacity: 0;
+  margin: 1px auto;
+}
+
+.box_default{
+    background: #191919;
+   
+    float: left;
+    width:100%;
+    
+    z-index: 5;
+    
+}
+
+.box_inner{
+       
+    width:100%;
+    /**border:1px solid #ff8410;**/
+    text-align: center;
+    z-index: 10;
+    overflow: hidden;
+    
+}
+
+.box_20pc{
+  width:20%;
+  text-align: center;
+  z-index: 10;
+  float: left;
+}
+.box_25pc{
+    width:25%;
+    text-align: center;
+    z-index: 10;
+    float: left;
+  }
+.box_33pc{
+    width:33%;
+    text-align: center;
+    z-index: 10;
+    
+    margin: 1px auto;
+    float: left;
+}
+.box_50pc{
+    width:50%;
+    text-align: center;
+    z-index: 10;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+.box_100pc{
+    width:100%;
+    text-align: center;
+    z-index: 10;
+    float: left;
+  }
+.box_login{
+    
+    text-align: center;
+    z-index: 10;
+    float: right;
+    
+    box-sizing: border-box;
+  }
+  .login_box{
+    
+    text-align: center;
+    z-index: 10;
+    float: right;
+    padding-top: 11px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .login_name{
+    
+    text-align: center;
+    z-index: 10;
+    float: left;
+    
+    box-sizing: border-box;
+  }
+  .login_button{
+    
+    text-align: center;
+    z-index: 10;
+    float: left;
+    
+    box-sizing: border-box;
+    pointer-events: auto;
+  }
+
+  .icon{
+    width: 35vw;
+    height: 30vw;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 5vw;
+  }
+  
+  #login {
+    position: fixed;
+    /*基準を画面の左上に*/
+    top: 0;
+    left: 0;
+    /*余白が入らないように*/
+    margin: 0;
+    /*以下装飾*/
+    width: 100%;
+    background: #ffc77800;
+    color:white;
+    float: right;
+    pointer-events: none;
+  }
+
+  #fixed {
+    position: fixed; /* 要素の位置を固定する */
+    bottom: 0; /* 基準の位置を画面の一番下に指定する */
+    left: 0; /* 基準の位置を画面の一番右に指定する */
+    width: 300px; /* 幅を指定する */
+    z-index: 2000;
+    pointer-events: none;
+    }
+
+
+    iframe{
+        
+        position: absolute;
+        
+        
+        background: transparent;
+        text-align: center;
+        
+    }

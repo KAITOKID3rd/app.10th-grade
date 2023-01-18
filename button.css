@@ -1,0 +1,442 @@
+.button1 
+{
+    border: 0;
+    background: none;
+    
+    margin: 2px 1px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 9px 35px;
+    
+    color: white;
+    border-radius: 24px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.button1:hover
+{
+    background: #2ecc71;
+}
+
+.button2 
+{
+    border: 0;
+    background: none;
+    
+    margin: 2px 1px;
+    text-align: center;
+    border: 2px solid #cc2e2e;
+    padding: 9px 35px;
+    
+    color: white;
+    border-radius: 24px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.button2:hover
+{
+    background: #cc2e2e;
+}
+
+.button4
+{
+    border: 0;
+    background: #19191977;
+    
+    margin: 2px 1px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 10px 5px;
+    z-index: 300;
+    color: white;
+    border-radius: 30px;
+    transition: 0.8s;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.button4:hover
+{
+    background: #2ecc71;
+}
+
+.button5
+{
+    border: 0;
+    background: #19191977;
+    
+    margin: 2px 1px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 25px 20px;
+    z-index: 300;
+    color: white;
+    border-radius: 40px;
+    transition: 0.8s;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.button5:hover
+{
+    background: #2ecc71;
+}
+
+
+/**スライドスイッチ**/
+
+
+
+
+
+.tg-list {
+    text-align: center;
+    
+    align-items: center;
+  }
+  
+  .tg-list-item {
+    margin: 0 2em;
+  }
+  
+  .tgl {
+    display: none;
+  }
+  .tgl, .tgl:after, .tgl:before, .tgl *, .tgl *:after, .tgl *:before, .tgl + .tgl-btn {
+    box-sizing: border-box;
+  }
+  .tgl::-moz-selection, .tgl:after::-moz-selection, .tgl:before::-moz-selection, .tgl *::-moz-selection, .tgl *:after::-moz-selection, .tgl *:before::-moz-selection, .tgl + .tgl-btn::-moz-selection {
+    background: none;
+  }
+  .tgl::selection, .tgl:after::selection, .tgl:before::selection, .tgl *::selection, .tgl *:after::selection, .tgl *:before::selection, .tgl + .tgl-btn::selection {
+    background: none;
+  }
+  .tgl + .tgl-btn {
+    outline: 0;
+   
+    width: 9em;
+    height: 3em;
+    
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tgl + .tgl-btn:after, .tgl + .tgl-btn:before {
+    
+    
+    content: "";
+    width: 50%;
+    height: 100%;
+  }
+  .tgl + .tgl-btn:after {
+    left: 0;
+  }
+  .tgl + .tgl-btn:before {
+    display: none;
+  }
+  .tgl:checked + .tgl-btn:after {
+    left: 50%;
+  }
+
+.tgl-flip + .tgl-btn {
+    padding: 2px;
+    transition: all 0.2s ease;
+    font-family: sans-serif;
+    perspective: 100px;
+  }
+  .tgl-flip + .tgl-btn:after, .tgl-flip + .tgl-btn:before {
+    display: inline-block;
+    transition: all 0.4s ease;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2em;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-radius: 4px;
+  }
+
+.tgl-flip + .tgl-btn:after {
+    content: attr(data-tg-on);
+    background:  #0dd35f;
+    color: #333;
+    transform: rotateY(-180deg);
+  }
+  .tgl-flip + .tgl-btn:before {
+    background: #e63c29;
+    content: attr(data-tg-off);
+  }
+  .tgl-flip + .tgl-btn:active:before {
+    transform: rotateY(-20deg);
+  }
+  .tgl-flip:checked + .tgl-btn:before {
+    transform: rotateY(180deg);
+  }
+  .tgl-flip:checked + .tgl-btn:after {
+    transform: rotateY(0);
+    left: 0;
+    background: #2ecc71;
+  }
+  .tgl-flip:checked + .tgl-btn:active:after {
+    transform: rotateY(20deg);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .tg-list2 {
+    text-align: center;
+    
+    align-items: center;
+  }
+  
+  .tg-list-item2 {
+    margin: 0 2em;
+  }
+  
+  .tgl2 {
+    display: none;
+  }
+  .tgl2, .tgl2:after, .tgl2:before, .tgl2 *, .tgl2 *:after, .tgl2 *:before, .tgl2 + .tgl-btn2 {
+    box-sizing: border-box;
+  }
+  .tgl2::-moz-selection, .tgl2:after::-moz-selection, .tgl2:before::-moz-selection, .tgl2 *::-moz-selection, .tgl2 *:after::-moz-selection, .tgl2 *:before::-moz-selection, .tgl2 + .tgl-btn2::-moz-selection {
+    background: none;
+  }
+  .tgl2::selection, .tgl2:after::selection, .tgl2:before::selection, .tgl2 *::selection, .tgl2 *:after::selection, .tgl2 *:before::selection, .tgl2 + .tgl-btn2::selection {
+    background: none;
+  }
+  .tgl2 + .tgl-btn2 {
+    outline: 0;
+   
+    width: 9em;
+    height: 3em;
+    
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tgl2 + .tgl-btn2:after, .tgl2 + .tgl-btn2:before {
+    
+    
+    content: "";
+    width: 50%;
+    height: 100%;
+  }
+  .tgl2 + .tgl-btn2:after {
+    left: 0;
+  }
+  .tgl2 + .tgl-btn2:before {
+    display: none;
+  }
+  .tgl2:checked + .tgl-btn2:after {
+    left: 50%;
+  }
+
+.tgl-flip2 + .tgl-btn2 {
+    padding: 2px;
+    transition: all 0.2s ease;
+    font-family: sans-serif;
+    perspective: 100px;
+  }
+  .tgl-flip2 + .tgl-btn2:after, .tgl-flip2 + .tgl-btn2:before {
+    display: inline-block;
+    transition: all 0.4s ease;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2em;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-radius: 4px;
+  }
+
+.tgl-flip2 + .tgl-btn2:after {
+    content: attr(data-tg-on);
+    background:  #2ecc71;
+    transform: rotateY(-180deg);
+  }
+  .tgl-flip2 + .tgl-btn2:before {
+    background: #e74c3c;
+    content: attr(data-tg-off);
+  }
+  .tgl-flip2 + .tgl-btn2:active:before {
+    transform: rotateY(-20deg);
+  }
+  .tgl-flip2:checked + .tgl-btn2:before {
+    transform: rotateY(180deg);
+  }
+  .tgl-flip2:checked + .tgl-btn2:after {
+    transform: rotateY(0);
+    left: 0;
+    background: #2ecc71;
+  }
+  .tgl-flip2:checked + .tgl-btn2:active:after {
+    transform: rotateY(20deg);
+  }
+
+
+
+
+
+.cp_ipselect {
+  overflow: hidden;
+  width: 90%;
+  margin: 0em auto;
+  text-align: center;
+}
+.cp_ipselect select {
+  width: 100%;
+  padding-right: 1em;
+  cursor: pointer;
+  text-indent: 0.01px;
+  text-overflow: ellipsis;
+  border: none;
+  outline: none;
+  background: transparent;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.cp_ipselect select::-ms-expand {
+    display: none;
+}
+.cp_ipselect.cp_sl01 {
+  position: relative;
+  border-radius: 2px;
+  border: 2px solid skyblue;
+  border-radius: 50px;
+  background: #ffffff;
+}
+.cp_ipselect.cp_sl01::before {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  width: 0;
+  height: 0;
+  padding: 0;
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid skyblue;
+  pointer-events: none;
+}
+.cp_ipselect.cp_sl01 select {
+  padding: 8px 38px 8px 8px;
+  color: black;
+}
+
+
+
+
+.box_outer input[type = "text"],.boxl1 input[type = "password"]
+{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  border: 2px solid #3498bd;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 3.25s;
+}
+.box_outer input[type = "text"]:focus,.boxl1 input[type = "password"]:focus
+{
+    width: 100%;
+    border-color: #2ecc71;
+}
+.box_outer input[type = "submit"]
+{
+    border: 0;
+    background: none;
+    
+    margin: 2px 1px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 9px 35px;
+    
+    color: white;
+    border-radius: 24px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.box_outer input[type = "submit"]:hover
+{
+    background: #2ecc71;
+}
+
+
+.box_outer input[type = "button"]
+{
+    border: 0;
+    background: none;
+    
+    margin: 2px 1px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 9px 35px;
+    
+    color: white;
+    border-radius: 24px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.box_outer input[type = "button"]:hover
+{
+    background: #2ecc71;
+}
+.button
+{
+    border: 0;
+    background: none;
+    
+    margin: 2px 1px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 9px 35px;
+    
+    color: white;
+    border-radius: 24px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.button:hover
+{
+    background: #2ecc71;
+}
+
+.text-box{
+  background-color: rgba(222, 222, 222, 0);
+  width: 100%;
+  color: #6ce8f8;
+  border:none;
+}

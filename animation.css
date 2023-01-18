@@ -1,0 +1,1289 @@
+.fade1{
+  
+    animation-name: fade-in1;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+}
+  
+  @keyframes fade-in1 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.fade2{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.fade3{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 2s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+/* ローディング画面 */
+#loading {
+  width: 100vw;
+  height: 100vh;
+  transition: all 0.3s;
+  background-color: rgb(10, 10, 10);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 200px auto;
+  background-color: #fff;
+  border-radius: 100%;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+/* ローディングアニメーション */
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  } 100% {
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loading_gif{
+  position: fixed;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+
+
+
+
+
+  .mfade1{
+  
+    animation-name: fade-in1;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0.1s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+}
+  
+  @keyframes fade-in1 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade2{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0.2s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade3{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0.3s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade4{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0.4s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade5{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0.5s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade6{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0.6s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade7{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0.7s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade8{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0.8s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade9{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0.9s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade10{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1.0s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade11{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1.1s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade12{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1.2s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade13{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1.3s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade14{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1.4s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade15{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1.5s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade16{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1.6s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade17{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1.7s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade18{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1.8s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade19{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1.9s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade20{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 2.0s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade21{
+    animation-name: fade-in1;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 2.1s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+}
+  
+  @keyframes fade-in1 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade22{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 2.2s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade23{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 2.3s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade24{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 2.4s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade25{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 2.5s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade26{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 2.6s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade27{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 2.7s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade28{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 2.8s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade29{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 2.9s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade30{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 3.0s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade31{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 3.1s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade32{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 3.2s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade33{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 3.3s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade34{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 3.4s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade35{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 3.5s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade36{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 3.6s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade37{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 3.7s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade38{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 3.8s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade39{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 3.9s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade40{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 4.0s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade41{
+  
+    animation-name: fade-in1;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 4.1s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+}
+  
+  @keyframes fade-in1 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade42{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 4.2s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade43{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 4.3s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade44{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 4.4s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade45{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 4.5s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade46{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 4.6s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade47{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 4.7s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade48{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 4.8s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade49{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 4.9s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade50{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 5.0s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade51{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 5.1s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade52{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 5.2s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade53{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 5.3s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade54{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 5.4s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade55{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 5.5s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade56{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 5.6s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade57{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 5.7s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+  .mfade58{
+
+    animation-name: fade-in2;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 5.8s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in2 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+.mfade59{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 5.9s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
+
+  .mfade60{
+
+    animation-name: fade-in3;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 6.0s; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+  
+}
+  
+  @keyframes fade-in3 { /*animetion-nameで設定した値を書く*/
+  
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+  }
