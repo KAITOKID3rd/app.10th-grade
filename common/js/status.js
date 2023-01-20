@@ -1,9 +1,9 @@
 var status_server1 = 1;
-var status_server2 = 0;
-var status_server3 = 0;
-var status_lobby = 0;
-var status_reset_shigen = 0;
-var status_shigen_server = 0;
+var status_server2 = 1;
+var status_server3 = 1;
+var status_lobby = 1;
+var status_reset_shigen = 1;
+var status_shigen_server = 1;
 var status_relay_server = 0;
 
 // HTML内のステータステキストを取得
