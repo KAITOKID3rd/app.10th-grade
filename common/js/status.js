@@ -86,5 +86,5 @@ if (status_relay_server == 0) {
     txt_relay_server.innerHTML = "停止中";
     lamp_relay_server.innerHTML = '<div id="lamp_relay_server" class="spinner-grow text-danger" role="status"><span class="sr-only"></span></div>';
 }
-
+};
 //info.innerHTML = '[2022.12.16]　小学10年生インフォアプリをリリースしました。\n[2022.01.24]　人事部がアップデートしました。即時ホワリス追加できるようになりました。\n[2021.12.27]　1.16.2から1.16.5へ変更しました。\n[2021.12.10]　第４次生活鯖がオープンしました。\n[2021.12.10]　Ver.1.16.2新生活鯖を公開しました。それに伴い、各ワールドの説明を変更しました。\n[2018.09.03]　9/03(金)緊急メンテナンスが終了しました。\n[2021.09.03]　9/03(金)16:00より緊急メンテナンスを実施します。\n[2021.09.03]　第３次生活鯖がオープンしました。';
