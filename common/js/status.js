@@ -1,10 +1,15 @@
-var status_server1 = 1;
-var status_server2 = 1;
-var status_server3 = 1;
-var status_lobby = 1;
-var status_reset_shigen = 1;
-var status_shigen_server = 1;
-var status_relay_server = 0;
+fetch("https://script.google.com/macros/s/AKfycbyN4OM2IhtonIAfBcaSRnA9zH3XbVbpvLqOQPLyFXwSYGxS5_Z0-HURrtLQ8gPuBx0z/exec")
+.then(function (fetch_data) {
+    return fetch_data.json();
+})
+.then(function (json) {
+var status_server1 = json[0][0][0];
+var status_server2 = json[1][0][0];
+var status_server3 = json[2][0][0];
+var status_lobby = json[3][0][0];
+var status_reset_shigen = json[4][0][0];
+var status_shigen_server = json[5][0][0];
+var status_relay_server = json[6][0][0];
 
 // HTML内のステータステキストを取得
 var txt_server1 = document.getElementById("txt_server1");
