@@ -14,7 +14,7 @@ if(window.outerWidth > 1000){
    
 
     alert("このサイトはスマホ向けサイトです。スマホ以外でのアクセスでは表示が崩れることがあります。PCの場合はブラウザのウインドウをスマホと同じ縦横比（縦長）にすると正常に表示できます。")
-    window.open("https://app.ratami.com", "", "width=668,height=1107");
+    window.open("https://kaitokid3rd.github.io/app.10th-grade/", "", "width=668,height=1107");
 }
 
 
