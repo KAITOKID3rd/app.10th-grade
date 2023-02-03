@@ -37,6 +37,9 @@ if (status_server1 == 0) {
 } else if(status_server1 == 1) {
     txt_server1.innerHTML = "停止中";
     lamp_server1.innerHTML = '<div id="lamp_server1" class="spinner-grow text-danger" role="status"><span class="sr-only"></span></div>';
+} else if(status_server1 == 2) {
+    txt_server1.innerHTML = "障害中";
+    lamp_server1.innerHTML = '<div id="lamp_server1" class="spinner-grow text-warning" role="status"><span class="sr-only"></span></div>';
 }
 
 if (status_server2 == 0) {
@@ -45,6 +48,9 @@ if (status_server2 == 0) {
 } else if(status_server2 == 1) {
     txt_server2.innerHTML = "停止中";
     lamp_server2.innerHTML = '<div id="lamp_server2" class="spinner-grow text-danger" role="status"><span class="sr-only"></span></div>';
+} else if(status_server2 == 2) {
+    txt_server2.innerHTML = "障害中";
+    lamp_server2.innerHTML = '<div id="lamp_server2" class="spinner-grow text-warning" role="status"><span class="sr-only"></span></div>';
 }
 
 if (status_server3 == 0) {
@@ -53,6 +59,9 @@ if (status_server3 == 0) {
 } else if(status_server3 == 1) {
     txt_server3.innerHTML = "停止中";
     lamp_server3.innerHTML = '<div id="lamp_server3" class="spinner-grow text-danger" role="status"><span class="sr-only"></span></div>';
+} else if(status_server3 == 2) {
+    txt_server3.innerHTML = "障害中";
+    lamp_server3.innerHTML = '<div id="lamp_server3" class="spinner-grow text-warning" role="status"><span class="sr-only"></span></div>';
 }
 
 if (status_lobby == 0) {
@@ -61,6 +70,9 @@ if (status_lobby == 0) {
 } else if(status_lobby == 1) {
     txt_lobby.innerHTML = "停止中";
     lamp_lobby.innerHTML = '<div id="lamp_lobby" class="spinner-grow text-danger" role="status"><span class="sr-only"></span></div>';
+} else if(status_lobby == 2) {
+    txt_lobby.innerHTML = "障害中";
+    lamp_lobby.innerHTML = '<div id="lamp_lobby" class="spinner-grow text-warning" role="status"><span class="sr-only"></span></div>';
 }
 
 if (status_reset_shigen == 0) {
@@ -69,6 +81,9 @@ if (status_reset_shigen == 0) {
 } else if(status_reset_shigen == 1) {
     txt_reset_shigen.innerHTML = "停止中";
     lamp_reset_shigen.innerHTML = '<div id="lamp_reset_shigen" class="spinner-grow text-danger" role="status"><span class="sr-only"></span></div>';
+} else if(status_reset_shigen == 2) {
+    txt_reset_shigen.innerHTML = "障害中";
+    lamp_reset_shigen.innerHTML = '<div id="lamp_reset_shigen" class="spinner-grow text-warning" role="status"><span class="sr-only"></span></div>';
 }
 
 if (status_shigen_server == 0) {
@@ -77,6 +92,9 @@ if (status_shigen_server == 0) {
 } else if(status_shigen_server == 1) {
     txt_shigen_server.innerHTML = "停止中";
     lamp_shigen_server.innerHTML = '<div id="lamp_shigen_server" class="spinner-grow text-danger" role="status"><span class="sr-only"></span></div>';
+} else if(status_shigen_server == 2) {
+    txt_shigen_server.innerHTML = "障害中";
+    lamp_shigen_server.innerHTML = '<div id="lamp_shigen_server" class="spinner-grow text-warning" role="status"><span class="sr-only"></span></div>';
 }
 
 if (status_relay_server == 0) {
@@ -85,6 +103,9 @@ if (status_relay_server == 0) {
 } else if(status_relay_server == 1) {
     txt_relay_server.innerHTML = "停止中";
     lamp_relay_server.innerHTML = '<div id="lamp_relay_server" class="spinner-grow text-danger" role="status"><span class="sr-only"></span></div>';
+} else if(status_relay_server == 2) {
+    txt_relay_server.innerHTML = "障害中";
+    lamp_relay_server.innerHTML = '<div id="lamp_relay_server" class="spinner-grow text-warning" role="status"><span class="sr-only"></span></div>';
 }
 }
 );
